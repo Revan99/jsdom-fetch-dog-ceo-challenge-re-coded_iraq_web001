@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded',()=>{fetch(imgUrl).then(response=>r
 fetch(breedUrl).then(response1=>response1.json()).then(data1=>{console.log(data1)
 let container1 = document.getElementById('dog-breeds')
   container1.innerHTML=`
-  <li><img src="${data1.message[0]}" alt="img1"></li>
-  <li><img src="${data1.message[1]}" alt="img2"></li>
-  <li><img src="${data1.message[2]}" alt="img3"></li>
-  <li><img src="${data1.message[3]}" alt="img4"></li>`
+  <li><img src="${data1.message[0]}" alt="img4"></li>
+  <li><img src="${data1.message[1]}" alt="img5"></li>
+  <li><img src="${data1.message[2]}" alt="img6"></li>
+  <li><img src="${data1.message[3]}" alt="img7"></li>`
 }).catch(err1=>{console.log(err1)})})
