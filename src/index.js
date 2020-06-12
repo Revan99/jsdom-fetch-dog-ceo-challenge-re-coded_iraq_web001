@@ -1,8 +1,7 @@
 console.log('%c HI', 'color: firebrick')
 const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
 const breedUrl = 'https://dog.ceo/api/breeds/list/all'
-document.addEventListener('DOMContentLoaded',()=>{
-})
+
 fetch(breedUrl).then(response1=>response1.json()).then(data1=>{console.log(data1)
 let container1 = document.getElementById('dog-breeds')
   container1.innerHTML=`
