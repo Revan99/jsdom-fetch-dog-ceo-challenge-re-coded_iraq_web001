@@ -7,3 +7,4 @@ document.addEventListener('DOMContentLoaded',()=>{fetch(imgUrl).then(response=>r
   <img src="${data.message[2]}" alt="img3">
   <img src="${data.message[3]}" alt="img4">`
 }).catch(err=>{console.log(err)})})
+const breedUrl = 'https://dog.ceo/api/breeds/list/all'
