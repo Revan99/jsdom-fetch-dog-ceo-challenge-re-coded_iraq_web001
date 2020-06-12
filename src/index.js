@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded',()=>{fetch(imgUrl).then(response=>r
   <img src="${data.message[2]}" alt="img3">
   <img src="${data.message[3]}" alt="img4">`
 }).catch(err=>{console.log(err)})
-fetch(imgUrl).then(response=>response.json()).then(data=>{console.log(data)
+fetch(breedUrl).then(response=>response.json()).then(data=>{console.log(data)
 }).catch(err=>{console.log(err)})})
