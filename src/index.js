@@ -1,2 +1,3 @@
 console.log('%c HI', 'color: firebrick')
-const imgUrl = ''
+const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
+fetch(imgUrl).then(response=>response.json()).then(data=>console.log(data)).catch(err=>console.log(err))
