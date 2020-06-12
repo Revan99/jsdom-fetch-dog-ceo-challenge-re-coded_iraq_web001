@@ -10,4 +10,4 @@ document.addEventListener('DOMContentLoaded',()=>{fetch(imgUrl).then(response=>r
 }).catch(err=>{console.log(err)})
 fetch(imgUrl).then(response=>response.json()).then(data=>{console.log(data)
 }).catch(err=>{console.log(err)})}
-)})
+})
