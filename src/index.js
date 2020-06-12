@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded',()=>{fetch(imgUrl).then(response=>r
   <img src="${data.message[3]}" alt="img4">`
 }).catch(err=>{console.log(err)});
 
+})
 fetch(breedUrl).then(response1=>response1.json()).then(data1=>{console.log(data1)
 let container1 = document.getElementById('dog-breeds')
   container1.innerHTML=`
@@ -16,4 +17,4 @@ let container1 = document.getElementById('dog-breeds')
   <li><img src="${data1.message[1]}" alt="img5"></li>
   <li><img src="${data1.message[2]}" alt="img6"></li>
   <li><img src="${data1.message[3]}" alt="img7"></li>`
-}).catch(err1=>{console.log(err1)})})
+}).catch(err1=>{console.log(err1)})
